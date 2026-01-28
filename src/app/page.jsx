@@ -11,15 +11,23 @@ export default function Home() {
     <div className="w-full">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        {/* Background Image/GIF with Overlay */}
+        {/* Background Video */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-linear-to-r from-[#98947B]/90 to-[#91AFAD]/80 z-10"></div>
-          <img 
-            src="https://images.unsplash.com/photo-1573497491208-6b1acb260507?w=1920&q=80" 
-            alt="Terapia psicológica" 
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
             className="w-full h-full object-cover"
-          />
+          >
+            <source src="/home-hero.webm" type="video/webm" />
+            Tu navegador no soporta video HTML5
+          </video>
         </div>
+
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-linear-to-r from-[#98947B]/90 to-[#91AFAD]/80 z-10" />
 
         {/* Hero Content */}
         <div className="relative z-20 text-center px-4 max-w-4xl mx-auto">
@@ -33,7 +41,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`}
+              href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP || ''}`}
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-[#25D366] text-white rounded-full font-semibold text-lg hover:bg-[#20BA5A] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 inline-flex items-center justify-center"
