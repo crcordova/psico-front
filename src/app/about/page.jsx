@@ -33,34 +33,41 @@ export default function AcercaPage() {
             {/* Content */}
             <div className="order-2 lg:order-1">
               <h2 className="text-4xl md:text-5xl font-bold text-[#98947B] mb-6">
-                Mi Camino en la Psicología
+                Hola, soy Consuelo
               </h2>
               <div className="w-20 h-1 bg-[#91AFAD] mb-8"></div>
               
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                Desde que decidí estudiar psicología, supe que mi vocación era acompañar a las personas 
-                en sus momentos más difíciles y celebrar con ellas sus logros. Me gradué con honores de 
-                la Universidad de Chile y desde entonces he dedicado mi vida profesional a perfeccionar 
-                mis habilidades terapéuticas.
+                Creo profundamente que la terapia es uno de los proyectos más importantes de la vida, porque es la mejor 
+                inversión que podemos hacer: invertir en nosotros mismos. Es el espacio para reiniciar, reenfocar y 
+                volver a comenzar todas las veces que sea necesario.
               </p>
               
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                Mi formación en terapia cognitivo-conductual me ha permitido ayudar a cientos de personas 
-                a superar la ansiedad, depresión, y otros desafíos emocionales. Creo firmemente en el 
-                poder de la ciencia y la evidencia, pero también en la importancia de la conexión humana 
-                genuina en el proceso terapéutico.
+                Acompañar un proceso terapéutico es similar a cuidar un entorno natural: a veces es necesario detenerse, 
+                observar, remover lo que ya no nutre y dar tiempo para que algo nuevo pueda crecer. El bienestar no 
+                siempre es inmediato, pero cuando se construye con dedicación, se vuelve genuino y sostenible.
               </p>
 
               <p className="text-gray-700 text-lg leading-relaxed mb-8">
-                A lo largo de estos años, he trabajado en diferentes contextos: hospitales, clínicas 
-                privadas, centros comunitarios y ahora principalmente online, lo que me ha dado una 
-                perspectiva amplia y comprensiva de la salud mental en Chile.
+                Cuento con experiencia clínica acompañando más de 200 historias reales, cada una única, 
+                valiente y profundamente humana. Además, he trabajado en el sector público, lo que me ha 
+                permitido conocer y manejar el sistema, integrando una mirada amplia, contextual y 
+                comprometida con la realidad de cada persona.
+              </p>
+              <p className="text-gray-700 text-lg leading-relaxed mb-8">
+                Mi objetivo en terapia es acompañarte a alcanzar tus propios objetivos, promoviendo un 
+                espacio seguro donde puedas sentirte bien contigo misma/o, conectar con tus recursos y 
+                fortalecer tu bienestar emocional.
+              </p>
+              <p className="text-gray-700 text-lg leading-relaxed mb-8">
+                Porque nada verdaderamente importante se construye dedicándole solo el tiempo que sobra. La terapia es un acto de compromiso contigo.
               </p>
 
               {/* Stats */}
               <div className="grid grid-cols-3 gap-6 mt-10">
                 <div className="text-center p-4 bg-[#D2C1AD]/10 rounded-lg">
-                  <div className="text-4xl font-bold text-[#91AFAD] mb-2">10+</div>
+                  <div className="text-4xl font-bold text-[#91AFAD] mb-2">5+</div>
                   <div className="text-sm text-gray-600">Años de Experiencia</div>
                 </div>
                 <div className="text-center p-4 bg-[#D2C1AD]/10 rounded-lg">
@@ -104,8 +111,9 @@ export default function AcercaPage() {
             </h2>
             <div className="w-20 h-1 bg-[#91AFAD] mx-auto mb-6"></div>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Estos son los pilares que guían mi práctica profesional y los servicios 
-              que ofrezco para ayudarte en tu proceso terapéutico
+              Ser psicóloga, para mí, es acompañar procesos de transformación, respetando los ritmos de cada persona. 
+              No se trata de forzar cambios, sino de crear las condiciones necesarias para que el bienestar pueda 
+              emerger de manera auténtica, como lo hace un paisaje cuando es cuidado.
             </p>
           </div>
 
@@ -213,37 +221,10 @@ export default function AcercaPage() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-[#98947B] mb-1">Psicóloga Clínica</h4>
-                  <p className="text-gray-600 text-sm">Universidad de Chile, 2013</p>
+                  <p className="text-gray-600 text-sm">Universidad de Chile, 2020</p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
-                <div className="shrink-0">
-                  <div className="w-12 h-12 bg-[#91AFAD] rounded-full flex items-center justify-center">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[#98947B] mb-1">Magíster en Psicología Clínica</h4>
-                  <p className="text-gray-600 text-sm">Universidad Católica, 2016</p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="shrink-0">
-                  <div className="w-12 h-12 bg-[#91AFAD] rounded-full flex items-center justify-center">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[#98947B] mb-1">Especialización en TCC</h4>
-                  <p className="text-gray-600 text-sm">Instituto Beck, Argentina, 2018</p>
-                </div>
-              </div>
 
               <div className="flex items-start space-x-4">
                 <div className="shrink-0">
@@ -265,8 +246,8 @@ export default function AcercaPage() {
 
       {/* CTA Section */}
       <CTASection 
-        title="¿Te gustaría trabajar conmigo?"
-        description="Estoy aquí para acompañarte en tu proceso de sanación y crecimiento personal. Agenda tu primera sesión y da el primer paso hacia el cambio que deseas."
+        title="¿Listo/a para comenzar? "
+        description="Hablemos… aquí estoy escríbeme y cuéntame el motivo de tu consulta…"
       />
     </div>
   );

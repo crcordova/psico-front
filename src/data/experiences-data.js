@@ -2,8 +2,8 @@
 export const experiences = [
   {
     image: "https://images.unsplash.com/photo-1573497491208-6b1acb260507?w=800&q=80",
-    title: "Terapia Tradicional",
-    description: "Terapia individual, de pareja y familiar. Enfoque cognitivo-conductual para abordar ansiedad, depresión, relaciones y crecimiento personal.",
+    title: "Terapia Personalizada",
+    description: "Cada proceso terapéutico es único, porque trabajo con personas reales y con historias que merecen ser escuchadas y respetadas.",
     color: "91AFAD",
     link: "/terapia"
   },

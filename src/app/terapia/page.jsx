@@ -24,10 +24,13 @@ export default function TerapiaPage() {
 
         <div className="relative z-20 text-center px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            Terapia Tradicional
+            Terapia Personalizada
           </h1>
           <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-3xl mx-auto">
-            Un espacio seguro para tu crecimiento emocional y bienestar personal
+            Cada proceso terapéutico es único, porque trabajo con personas reales y con historias que merecen 
+            ser escuchadas y respetadas. Así como en la naturaleza no existen dos paisajes iguales, la terapia 
+            se construye de manera personalizada, atendiendo los tiempos, necesidades y objetivos de cada persona. 
+            Cada historia es importante, y cada proceso merece un espacio propio para crecer.
           </p>
         </div>
       </section>
@@ -38,14 +41,15 @@ export default function TerapiaPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-[#98947B] mb-6">
-                ¿Qué es la Terapia Tradicional?
+                Esto es ciencia: 
               </h2>
               <div className="w-20 h-1 bg-[#91AFAD] mb-8"></div>
               
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                La terapia tradicional es el enfoque clásico de la psicología, donde trabajamos 
-                juntos en un espacio confidencial y seguro para abordar tus desafíos emocionales, 
-                mejorar tus relaciones y alcanzar tus metas personales.
+                La psicología no es una creencia, una ideología ni una religión. No es algo en lo que se “cree”. 
+                La psicología es ciencia, al igual que la medicina o las matemáticas, y se dedica al estudio del 
+                comportamiento humano y de los procesos mentales, basando su trabajo en evidencia científica.
+
               </p>
               
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
